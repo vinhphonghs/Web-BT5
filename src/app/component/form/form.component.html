@@ -1,0 +1,23 @@
+
+<form [formGroup]="myForm">
+    <div class="form">
+        <h1>Form of product</h1>
+        <div>
+            <label>Name: </label>
+            <input type="text" class="nameOProdct" formControlName="name">
+        </div><br>
+        <div>
+            <label>Quantity: </label>
+            <input type="number" class="quantityOProdct" formControlName="quantity">
+        </div><br>
+        <div>
+            <label>Price: </label>
+            <input type="number" class="priceOProdct" formControlName="price">
+        </div><br>
+        <div>
+            <label>Description: </label>
+            <input type="text" class="descriptionOProdct" formControlName="description">
+        </div><br>
+        <button type="submit" class="submit" (click)="submit()">submit</button>
+    </div>
+</form>
