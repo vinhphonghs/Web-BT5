@@ -1,0 +1,42 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 350px;
+  padding: 20px;
+  margin: auto;
+  width: 320px;
+}
+.container {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#nameOProdct{
+  margin-bottom: 20px;
+}
+
+#quantityOProdct{
+  margin-bottom: 20px;
+}
+
+#priceOProdct{
+  margin-bottom: 20px;
+}
+
+// #descriptionOProdct{
+//   margin-bottom: 20px;
+// }
+
+#imgOProdct{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

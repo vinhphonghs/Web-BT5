@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Item } from './models/item.model';
+import { DataService } from './services/data.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyFirstProject';
+  
+  listItem: Item[]=[]
+  
+  constructor(protected dataService: DataService){
+    this.listItem = this.dataService.listItem
+  }
 }

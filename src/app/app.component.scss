@@ -1,122 +1,135 @@
-::placeholder {
-    font-size: large;
+// ::placeholder {
+//     font-size: large;
+// }
+
+// p::before {
+
+//     content: "______________";
+// }
+// p::after {
+
+//     content: "______________";
+// }
+
+// .fontText{
+//     font-family: Arial, Helvetica, sans-serif;
+// }
+
+// .tellUs{
+//     text-align:right;
+// }
+
+// .tellUscolor{
+//     color:#6a29b9;
+// }
+
+// .tittle{
+//     text-align:center;
+// }
+
+// .tittleFont{
+//     font-size: 40px;
+// }
+
+// .creatAcc{
+//     font-size: 18px; 
+//     margin-bottom: 35px;
+// }
+
+// .creatAcccolor{
+//     color: #3665f3;
+// }
+
+// .userFrame{
+//     border-radius: 25px ;
+//     padding-top: 20px; 
+//     padding-bottom: 20px; 
+//     padding-left: 120px; 
+//     padding-right: 120px; 
+//     margin-bottom: 25px;
+// }
+
+// .conButton{
+//     border-radius: 25px ;
+//     padding-top: 15px; 
+//     padding-bottom: 15px; 
+//     padding-left: 160px; 
+//     padding-right: 160px; 
+//     margin-bottom: 15px; 
+//     background-color: #3665f3; 
+//     color: white;
+// }
+
+// .conButtontext{
+//     font-size: 22px;
+// }
+
+// .or{
+//     margin-bottom: 45px;
+// }
+
+// .conWitothAcc{
+//     border-radius: 25px;
+//     padding-top: 15px; 
+//     padding-bottom: 15px;
+//     margin-bottom: 15px;
+// }
+
+// #conWitothAccfb{
+//     padding-left: 70px; 
+//     padding-right: 70px; 
+//     margin-top: 15px; 
+//     font-size: 22px; 
+//     background-color: #4267b2; 
+//     color: white;
+// }
+
+// #conWitothAccgoogl{
+//     padding-left: 80px; 
+//     padding-right: 80px; 
+//     background-color: #fff; 
+//     font-size: 22px;
+// }
+
+// #conWitothAccappl{
+//     padding-left: 90px; 
+//     padding-right: 90px; 
+//     background-color: #fff; 
+//     font-size: 22px;
+// }
+
+// .setChebox{
+//     font-size: 20px; 
+//     margin-bottom: 20px;
+// }
+
+// .useApupOrsharDev{
+//     font-size: 20px;
+// }
+
+// .uncheToproYoacc{
+//     font-size: 20px; 
+//     margin-bottom: 20px;
+// }
+
+// .leaMor{
+//     font-size: 20px; 
+//     color: #3665f3;
+// }
+
+// .noticLink{
+//     color: black;
+// }
+
+.container{
+    display: flex;
+    align-content: center;
 }
 
-p::before {
-
-    content: "______________";
+.example-card {
+    max-width: 400px;
 }
-p::after {
-
-    content: "______________";
-}
-
-.fontText{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.tellUs{
-    text-align:right;
-}
-
-.tellUscolor{
-    color:#6a29b9;
-}
-
-.tittle{
-    text-align:center;
-}
-
-.tittleFont{
-    font-size: 40px;
-}
-
-.creatAcc{
-    font-size: 18px; 
-    margin-bottom: 35px;
-}
-
-.creatAcccolor{
-    color: #3665f3;
-}
-
-.userFrame{
-    border-radius: 25px ;
-    padding-top: 20px; 
-    padding-bottom: 20px; 
-    padding-left: 120px; 
-    padding-right: 120px; 
-    margin-bottom: 25px;
-}
-
-.conButton{
-    border-radius: 25px ;
-    padding-top: 15px; 
-    padding-bottom: 15px; 
-    padding-left: 160px; 
-    padding-right: 160px; 
-    margin-bottom: 15px; 
-    background-color: #3665f3; 
-    color: white;
-}
-
-.conButtontext{
-    font-size: 22px;
-}
-
-.or{
-    margin-bottom: 45px;
-}
-
-.conWitothAcc{
-    border-radius: 25px;
-    padding-top: 15px; 
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-}
-
-#conWitothAccfb{
-    padding-left: 70px; 
-    padding-right: 70px; 
-    margin-top: 15px; 
-    font-size: 22px; 
-    background-color: #4267b2; 
-    color: white;
-}
-
-#conWitothAccgoogl{
-    padding-left: 80px; 
-    padding-right: 80px; 
-    background-color: #fff; 
-    font-size: 22px;
-}
-
-#conWitothAccappl{
-    padding-left: 90px; 
-    padding-right: 90px; 
-    background-color: #fff; 
-    font-size: 22px;
-}
-
-.setChebox{
-    font-size: 20px; 
-    margin-bottom: 20px;
-}
-
-.useApupOrsharDev{
-    font-size: 20px;
-}
-
-.uncheToproYoacc{
-    font-size: 20px; 
-    margin-bottom: 20px;
-}
-
-.leaMor{
-    font-size: 20px; 
-    color: #3665f3;
-}
-
-.noticLink{
-    color: black;
+  
+.example-header-image {
+    background-size: cover;
 }
