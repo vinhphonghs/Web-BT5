@@ -11,7 +11,7 @@ import { DataService } from 'src/app/services/data.service';
 })
 
 export class formComponent implements OnInit {
-  @Input()
+
   listItem: Item[] = [];
 
   myForm = new FormGroup({ });
@@ -32,6 +32,7 @@ export class formComponent implements OnInit {
     this.myForm.addControl('quantity', this.quantity);
     this.myForm.addControl('description', this.description);
     this.myForm.addControl('img', this.img);
+    this.listItem = this.dataService.listItem;
   }
 
    submit(){
@@ -48,6 +49,6 @@ export class formComponent implements OnInit {
 
     this.listItem.push(item);
 
-    console.log(this.listItem);
+  this.dataService.addItem(item);
    }
 }

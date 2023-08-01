@@ -1,5 +1,20 @@
-#logoCart{
-    width: 150px;
-    height: 100px;
-    margin: auto;
-  }
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoHeader{
+  width: 125px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.logoHeader2{
+  display: flex;
+  align-items: center;
+}
+
+
+
+  

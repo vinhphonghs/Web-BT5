@@ -45,6 +45,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -89,7 +90,9 @@ import { MatTableModule } from '@angular/material/table';
     MatTooltipModule,
     MatPaginatorModule,
     MatSortModule,
-    MatTableModule
+    MatTableModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   exports: [
     CommonModule,
@@ -131,7 +134,9 @@ import { MatTableModule } from '@angular/material/table';
     CartComponent,
     ItemCardComponent,
     HeaderComponent,
-    formComponent
+    formComponent,
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class sharedModule { }

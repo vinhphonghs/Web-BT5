@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "myfirstproject-35cd8": {
+      "hosting": {
+        "MyFirstProject": [
+          "myfirstproject-35cd8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "myfirstproject-35cd8"
+  }
+}

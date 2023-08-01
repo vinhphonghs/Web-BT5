@@ -6,7 +6,7 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   "
 >
-  <mat-card class="example-card" *ngFor="let item of this.listItem">
+  <mat-card class="example-card" *ngFor="let item of this.dataService.listItem">
     <div class="imgItem">
       <img
         mat-card-image
@@ -31,7 +31,7 @@
       <p>Price: {{ item.price }}</p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-button>Add to cart</button>
+      <button mat-button (click)="addCart(item)">Add to cart</button>
     </mat-card-actions>
   </mat-card>
 </div>
