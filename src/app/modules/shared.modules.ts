@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CartComponent } from '../components/cart/cart.component';
-import { ItemCardComponent } from '../components/item-card/item-card.component';
+import { ItemCardComponent } from '../components/Card/item-card/item-card.component';
 import { HeaderComponent } from '../components/header/header.component';
 import {formComponent} from '../components/form/form.component';
 // Material Form Controls
@@ -46,6 +46,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -92,7 +93,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     MatSortModule,
     MatTableModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   exports: [
     CommonModule,
@@ -136,7 +138,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     HeaderComponent,
     formComponent,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ]
 })
 export class sharedModule { }

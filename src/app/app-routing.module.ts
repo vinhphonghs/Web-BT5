@@ -22,6 +22,8 @@ const routes: Routes = [
     loadChildren: () =>
       import('./pages/storage/storage.module').then((m) => m.StorageModule),
   },
+  { path: 'counter', loadChildren: () => import('./pages/counter/counter.module').then(m => m.CounterModule) },
+  { path: 'catBlog', loadChildren: () => import('./components/Card/cat-blog/cat-blog.module').then(m => m.CatBlogModule) },
 ];
 
 @NgModule({

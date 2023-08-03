@@ -17,7 +17,7 @@ export class DataService {
  itemsCollection = collection(this.firestore, 'items');
  constructor (private firestore: Firestore) {
  this.getData();
- this.deleteItem('1690875322108');
+//  this.deleteItem('1690875322108');
 // this.updateItem({description: "nice", id:"1690785668603", img: "", name: "blablalba", price: 200000, quantity:1});
  }
 
